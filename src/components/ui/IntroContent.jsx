@@ -9,10 +9,10 @@ import cir2 from '../../assets/images/form-img/cir2.png';
 
 export default function IntroContent() {
     return (
-        <div className="intro-content grid grid-cols-2 gap-8 items-center mx-16">
+        <div className="intro-content grid grid-cols-2 gap-8 items-center mx-16 h-full">
             {/* Left Section */}
             <div className="intro-left">
-                <h4 className="text-2xl font-semibold text-[#FFC600] leading-tight">
+                <h4 className="text-2xl font-semibold text-[#FFC600] leading-tight pt-28">
                     Recruit - Onboard - Manage
                 </h4>
                 <h2 className="text-5xl font-bold text-gray-900 mt-3 leading-snug">
@@ -21,7 +21,7 @@ export default function IntroContent() {
                 <p className="text-2xl font-normal text-[#666666] mt-5 leading-10">
                     The best HR software for StickyHR companies and startup to manage employee, payroll assistance, time off, attendance tracking with single software
                 </p>
-                <div className="intro-btns mt-5 flex gap-4">
+                <div className="intro-btns mt-5 flex pb-14 gap-4">
                     <Button className="bg-[#086165] text-white rounded-3xl hover:bg-[#064d4b] transition flex items-center justify-center text-base px-7 py-5">
                         Get Started
                     </Button>

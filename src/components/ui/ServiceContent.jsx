@@ -7,7 +7,7 @@ function ServiceContent() {
 
     return (
         <>
-            <h2 className="text-3xl font-bold text-gray-800 text-center my-6 mx-16">
+            <h2 className="text-5xl font-bold text-gray-800 text-center my-6 mx-16 pt-16">
                 Our Product & Services
             </h2>
 
@@ -36,7 +36,7 @@ function ServiceContent() {
                 </div>
 
                 {/* Main Content */}
-                <div className="grid grid-cols-2 gap-10 items-center bg-[#e4f0f1] rounded-xl p-8">
+                <div className="grid grid-cols-2 gap-8 items-center bg-[#e4f0f1] rounded-xl p-7 pt-20 pb-20">
                     {/* Left Section */}
                     <div>
                         <h2 className="text-2xl font-semibold text-gray-800">{selectedService.heading}</h2>
