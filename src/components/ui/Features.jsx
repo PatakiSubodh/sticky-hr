@@ -13,7 +13,7 @@ const ProductFeatures = () => {
   ];
 
   return (
-    <div className="text-center pt-32">
+    <div className="text-center my-20">
       <h2 className="text-5xl font-bold mb-6">Our Product Features</h2>
       <div className="grid grid-cols-4 gap-8 px-40 py-8">
         {features.map((feature, index) => (

@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const Layout = () => {
     return (
-    <div className="flex w-full h-screen px-10 py-10">
+    <div className="flex w-full h-screen px-10 py-8">
       {/* Left Section */}
         <div className="w-1/2 flex flex-col justify-center pl-12">
         <h1 className="text-5xl font-bold text-gray-900">
@@ -19,9 +19,9 @@ const Layout = () => {
         </div>
 
       {/* Right Section */}
-        <div className="w-1/2 pr-10 pt-14 grid grid-cols-2 gap-6 relative">
+        <div className="w-1/2 pr-10 pt-8 pb-8 grid grid-cols-2 gap-6 relative">
             {/* Box 1 (Lower) */}
-            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full -mt-10">
+            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full -mt-5">
             <div className="flex"><span className="bg-blue-600 text-white p-2 rounded-tl-none rounded-tr-xl 
                 rounded-bl-xl rounded-br-none w-12 flex justify-center">🔹</span>
                 <h3 className="font-bold text-lg mt-2 ml-3 flex justify-center">Centralized Platform</h3>
@@ -32,7 +32,7 @@ const Layout = () => {
             </div>
 
             {/* Box 2 (Higher) */}
-            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full mt-10">
+            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full mt-5">
             <div className="flex"><span className="bg-green-600 text-white p-2 rounded-tl-none rounded-tr-xl 
                 rounded-bl-xl rounded-br-none w-12 flex justify-center">👥</span>
                 <h3 className="font-bold text-xl mt-2 ml-3 flex justify-center">User Experience</h3></div>
@@ -42,7 +42,7 @@ const Layout = () => {
             </div>
 
             {/* Box 3 (Lower) */}
-            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full -mt-10">
+            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full -mt-5">
             <div className="flex"><span className="bg-yellow-500 text-white p-2 rounded-tl-none rounded-tr-xl 
                 rounded-bl-xl rounded-br-none w-12 flex justify-center">🛡</span>
                 <h3 className="font-bold text-lg mt-2 ml-3 flex justify-center">Data Security</h3></div>
@@ -52,7 +52,7 @@ const Layout = () => {
             </div>
 
             {/* Box 4 (Higher) */}
-            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full mt-10">
+            <div className="bg-gray-100 shadow-lg p-5 rounded-2xl shadow-gray-300 flex flex-col h-full mt-5">
             <div className="flex"><span className="bg-red-500 text-white p-2 rounded-tl-none rounded-tr-xl 
                 rounded-bl-xl rounded-br-none w-12 flex justify-center">🤖</span>
                 <h3 className="font-bold text-lg mt-2 ml-3 flex justify-center">AI-Driven Technology</h3></div>

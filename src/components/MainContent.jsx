@@ -11,6 +11,9 @@ export default function MainContent() {
             <IntroContent />
             <LaunchingSoon />
             <ServiceContent />
+            <Features />
+            <Testimonials />
+            <Discovery />
         </div>
     );
 }

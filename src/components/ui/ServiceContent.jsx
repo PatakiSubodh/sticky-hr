@@ -11,7 +11,7 @@ function ServiceContent() {
                 Our Product & Services
             </h2>
 
-            <div className="p-8 w-fit">
+            <div className="px-16 w-fit py-5">
                 {/* Tabs Section */}
                 <div className="flex space-x-4 overflow-x-auto scrollbar-hide mb-[-1px]">
                     {servicesData.map((service) => (
