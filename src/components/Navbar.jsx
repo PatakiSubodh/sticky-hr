@@ -60,14 +60,14 @@ const components = [
 function Navbar() {
 
     return (
-        <div className="main-nav flex mx-16 my-5 justify-between">
+        <div className="main-nav flex mx-16 my-5 justify-between pt-5">
 
             {/* <NavLogo />
             <Navoptions />
             <Navcontactbutton /> */}
 
             {/* nav-logo */}
-            <img src={logo} alt="company logo" className='w-40' />
+            <img src={logo} alt="company logo" className='w-40 size-3xl' />
 
             {/* nav-options */}
             <NavigationMenu>

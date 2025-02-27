@@ -9,9 +9,9 @@ import cir2 from '../assets/images/form-img/cir2.png';
 export default function MainContent() {
     return (
         <div className="main-content h-screen flex items-center px-16">
-    <div className="intro-content grid grid-cols-2 gap-8 h-full w-full">
+    <div className="intro-content grid grid-cols-2 gap-5 h-full w-full">
         {/* Left Section - Full Height */}
-        <div className="intro-left flex flex-col justify-center h-full">
+        <div className="intro-left flex flex-col justify-center h-full pb-28">
             <h4 className="text-2xl font-semibold text-[#FFC600] leading-tight">
                 Recruit - Onboard - Manage
             </h4>
@@ -41,7 +41,7 @@ export default function MainContent() {
             <img src={cir2} alt="Circle 2" className="absolute top-[2.5rem] left-[6.5rem] w-3 h-3" />
 
             {/* Form Wrapper - Centered */}
-            <div className="bg-gray-100 p-6 rounded-xl shadow-lg w-full max-w-sm">
+            <div className="bg-gray-100 p-10 pt-20 rounded-xl shadow-lg w-full max-w-sm">
                 {/* Heading */}
                 <h2 className="text-xl font-bold mb-1">
                     30-day <span className="font-extrabold">free trial.</span>
