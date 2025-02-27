@@ -1,6 +1,7 @@
 import IntroContent from "./ui/IntroContent.jsx";
 import LaunchingSoon from "./ui/LaunchingSoon.jsx";
 import ServiceContent from "./ui/ServiceContent.jsx";
+import Testimonials from "./ui/Testimonials.jsx";
 
 
 export default function MainContent() {
@@ -9,6 +10,7 @@ export default function MainContent() {
             <IntroContent />
             <LaunchingSoon />
             <ServiceContent />
+            <Testimonials />
         </div>
     );
 }
