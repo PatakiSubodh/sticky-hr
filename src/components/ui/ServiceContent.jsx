@@ -7,11 +7,11 @@ function ServiceContent() {
 
     return (
         <>
-            <h2 className="text-3xl font-bold text-gray-800 text-center mt-12 mb-6">
+            <h2 className="text-3xl font-bold text-gray-800 text-center my-6 mx-16">
                 Our Product & Services
             </h2>
 
-            <div className="p-8 rounded-xl mr-10 mb-10 w-fit">
+            <div className="p-8 w-fit">
                 {/* Tabs Section */}
                 <div className="flex space-x-4 overflow-x-auto scrollbar-hide mb-[-1px]">
                     {servicesData.map((service) => (

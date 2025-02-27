@@ -9,7 +9,7 @@ import cir2 from '../../assets/images/form-img/cir2.png';
 
 export default function IntroContent() {
     return (
-        <div className="intro-content grid grid-cols-2 gap-8 items-center">
+        <div className="intro-content grid grid-cols-2 gap-8 items-center mx-16">
             {/* Left Section */}
             <div className="intro-left">
                 <h4 className="text-2xl font-semibold text-[#FFC600] leading-tight">
