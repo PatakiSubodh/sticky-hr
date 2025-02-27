@@ -95,8 +95,8 @@ const Footer = () => {
         </div>
         
         {/** Social Media Icons */}
-        <div className="col-span-2 p-4 flex space-x-4 text-gray-400 text-2xl pt-20 pl-10 ">
-          <FaWhatsapp className="cursor-pointer text-4xl" />
+        <div className="col-span-2 p-4 flex space-x-4 text-gray-200 text-2xl pt-20 pl-10 ">
+          <FaWhatsapp className="cursor-pointer text-4xl opacity-70 hover:opacity-100" />
           <FaXTwitter className="cursor-pointer text-4xl" />
           <FaYoutube className="cursor-pointer text-4xl" />
           <FaLinkedin className="cursor-pointer text-4xl" />

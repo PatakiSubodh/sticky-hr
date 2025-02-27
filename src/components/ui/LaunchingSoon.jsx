@@ -4,7 +4,7 @@ import LaunchingSoonImg from '../../assets/images/launching-img/launchingSoonImg
 
 export default function LaunchingSoon() {
     return (
-        <div className="launching-content w-screen bg-[#DEEEEF] flex flex-col items-center px-6 py-10 text-center mt-10">
+        <div className="launching-content w-full bg-[#DEEEEF] flex flex-col items-center px-6 py-10 text-center mt-10">
 
             {/* Launching Soon Icon */}
             <div className="w-full flex justify-start pl-6 mb-4">
