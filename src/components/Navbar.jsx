@@ -1,6 +1,6 @@
-// import NavLogo from './NavLogo.jsx'
-// import Navoptions from './Navoptions.jsx'
-// import Navcontactbutton from './Navcontactbutton.jsx'
+// import NavLogo from '../components/ui/NavLogo.jsx'
+// import Navoptions from '../components/ui/Navoptions.jsx'
+// import Navcontactbutton from '../components/ui/Navcontactbutton.jsx'
 import logo from '../assets/images/image.png'
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
