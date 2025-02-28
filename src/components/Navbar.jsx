@@ -67,7 +67,7 @@ function Navbar() {
             <Navcontactbutton /> */}
 
             {/* nav-logo */}
-            <img src={logo} alt="company logo" className='w-40 size-3xl' />
+            <img src={logo} alt="company logo" className='w-40 size-5xl' />
 
             {/* nav-options */}
             <NavigationMenu>
