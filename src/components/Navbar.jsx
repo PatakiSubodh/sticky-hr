@@ -1,11 +1,8 @@
-// import NavLogo from '../components/ui/NavLogo.jsx'
-// import Navoptions from '../components/ui/Navoptions.jsx'
-// import Navcontactbutton from '../components/ui/Navcontactbutton.jsx'
 import logo from '../assets/images/image.png'
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import React from "react"
-
+import { Link } from 'react-router-dom';
 
 import {
     NavigationMenu,
@@ -62,10 +59,6 @@ function Navbar() {
     return (
         <div className="main-nav flex mx-16 my-5 justify-between pt-5">
 
-            {/* <NavLogo />
-            <Navoptions />
-            <Navcontactbutton /> */}
-
             {/* nav-logo */}
             <img src={logo} alt="company logo" className='w-40 size-3xl' />
 
@@ -73,13 +66,13 @@ function Navbar() {
             <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem>
-                        <NavigationMenuLink>
-                            <Button variant="link" className='text-base' >Home</Button>
+                        <NavigationMenuLink asChild>
+                            <Link to="/">
+                                <Button variant="link" className='text-base' >Home</Button>
+                            </Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
-                    <NavigationMenuItem>
-                        
-                    </NavigationMenuItem>
+
                     <NavigationMenuItem>
                         <NavigationMenuTrigger>Components</NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -96,6 +89,7 @@ function Navbar() {
                             </ul>
                         </NavigationMenuContent>
                     </NavigationMenuItem>
+
                     <NavigationMenuItem>
                         <NavigationMenuTrigger>Services</NavigationMenuTrigger>
                         <NavigationMenuContent>
@@ -113,21 +107,29 @@ function Navbar() {
                             </ul>
                         </NavigationMenuContent>
                     </NavigationMenuItem>
+
                     <NavigationMenuItem>
-                        <NavigationMenuLink>
-                            <Button variant="link" className='text-base'>Customers</Button>
+                        <NavigationMenuLink asChild>
+                            <Link to="/customers">
+                                <Button variant="link" className='text-base'>Customers</Button>
+                            </Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
+
                     <NavigationMenuItem>
-                        <NavigationMenuLink>
-                            <Button variant="link" className='text-base'>Pricing</Button>
+                        <NavigationMenuLink asChild>
+                            <Link to="/pricing">
+                                <Button variant="link" className='text-base'>Pricing</Button>
+                            </Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
+
                     <NavigationMenuItem>
                         <NavigationMenuLink>
                             <Button variant="link" className='text-base'>Our Story</Button>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
+
                     <NavigationMenuItem>
                         <NavigationMenuLink>
                             <Button variant="link" className='text-base'>Careers</Button>

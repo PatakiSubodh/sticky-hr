@@ -36,9 +36,9 @@ export default function LaunchingSoon() {
             </div>
 
             {/* Join Now Button */}
-            {/* <button className="bg-[#FFC107] text-black font-semibold py-3 px-[75px] rounded-sm shadow-md hover:bg-[#e0a800] transition border-2 border-black relative bottom-[71px] left-[153px]">
+            <button className="bg-[#FFC107] text-black font-semibold py-3 px-[75px] rounded-sm shadow-md hover:bg-[#e0a800] transition border-2 border-black relative bottom-[71px] left-[153px]">
                 Join Now
-            </button> */}
+            </button>
         </div>
     );
 }
