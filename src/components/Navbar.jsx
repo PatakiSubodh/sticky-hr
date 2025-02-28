@@ -60,7 +60,7 @@ function Navbar() {
         <div className="main-nav flex mx-16 my-5 justify-between pt-5">
 
             {/* nav-logo */}
-            <img src={logo} alt="company logo" className='w-40 size-3xl' />
+            <img src={logo} alt="company logo" className='w-40 size-5xl' />
 
             {/* nav-options */}
             <NavigationMenu>

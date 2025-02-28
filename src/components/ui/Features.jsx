@@ -13,11 +13,11 @@ const ProductFeatures = () => {
   ];
 
   return (
-    <div className="text-center my-20">
+    <div className="text-center h-screen mt-16">
       <h2 className="text-5xl font-bold mb-6">Our Product Features</h2>
       <div className="grid grid-cols-4 gap-8 px-40 py-8">
         {features.map((feature, index) => (
-          <div key={index} className={`p-10 rounded-lg shadow-lg ${feature.bg} flex flex-col items-center`}>
+          <div key={index} className={`p-10 rounded-lg shadow-lg ${feature.bg} flex flex-col items-center hover:scale-105 transition`}>
             <div className={`p-4 rounded-full ${feature.circle} flex items-center justify-center mb-4`}>{feature.icon}</div>
             <p className="font-medium">{feature.title}</p>
           </div>

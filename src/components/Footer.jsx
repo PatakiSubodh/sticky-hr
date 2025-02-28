@@ -1,22 +1,22 @@
 import { MdCall } from "react-icons/md";
 import { FaPaperPlane, FaWhatsapp, FaXTwitter, FaYoutube, FaLinkedin, FaInstagram } from "react-icons/fa6";
-
+import logo from "../assets/images/image.png"
 const Footer = () => {
   return (
-    <div className="grid grid-cols-4 bg-[#1C1C1C] text-white p-5">
+    <div className="grid grid-cols-4 bg-[#1C1C1C] h-screen text-white p-5">
       <div className="pt-10 pr-5">
         <div className="col-span-1 flex flex-col justify-center align-middle border-1 border-r-2 pr-2">
-          <img src="./src/assets/images/image.png" alt="" className="mb-4" />
+          <img src={logo} alt="StickyHr Logo" className="m-5 w-5/6" />
           <p className="text-gray-400">
             Our sticky HR is developing a comprehensive HRMS product to manage end-to-end HR services for early-stage startup companies.
           </p>
-          <div className="mt-4 flex items-center space-x-2">
-            <button className="flex items-center space-x-2">
+          <div className="mt-4 flex  items-center space-x-2">
+            <button className="flex  justify-center items-center ">
               <div className="bg-[#009688] text-white px-4 py-2 rounded-full font-semibold">
                 <span>+91 90332 44538</span>
               </div>
-              <div className="bg-[#009688] text-white p-3 ml-0 rounded-full">
-                <MdCall className="text-xl" />
+              <div className="bg-[#009688] text-white  p-3 m-0  rounded-full">
+                <MdCall className="" />
               </div>
             </button>
           </div>
@@ -35,52 +35,52 @@ const Footer = () => {
       <div className="col-span-3 grid grid-cols-4 grid-rows-2 gap-3 p-5">
         {/** Resources */}
         <div className="p-5">
-          <h2 className="text-lg font-bold text-white">Resources</h2>
+          <h2 className="text-2xl font-bold text-white">Resources</h2>
           <ul className="mt-2 space-y-2 text-gray-400">
-            <li>Blog</li>
-            <li>Case Studies</li>
-            <li>HR Webinar</li>
+            <a href="#" className=" hover:text-white text-lg ">Blog</a>
+            <a href="#" className=" hover:text-white text-lg ">Case Studies</a>
+            <a href="#" className=" hover:text-white text-lg ">HR Webinar</a>
           </ul>
         </div>
         
         {/** Products */}
         <div className="p-5">
-          <h2 className="text-lg font-bold text-white">Products</h2>
+          <h2 className="text-2xl font-bold text-white">Products</h2>
           <ul className="mt-2 space-y-2 text-gray-400">
-            <li>Complete HR</li>
-            <li>Payroll Management</li>
-            <li>Attendance & Time</li>
-            <li>Workflow Management</li>
-            <li>Recruitment</li>
-            <li>Travel & Expense</li>
-            <li>Reimbursement</li>
+            <a href="#" className=" hover:text-white text-lg">Complete HR</a>
+            <a href="#" className=" hover:text-white text-lg ">Payroll Management</a>
+            <a href="#" className=" hover:text-white text-lg ">Attendance & Time</a>
+            <a href="#" className=" hover:text-white text-lg ">Workflow Management</a>
+            <a href="#" className=" hover:text-white text-lg ">Recruitment</a>
+            <a href="#" className=" hover:text-white text-lg ">Travel & Expense</a>
+            <a href="#" className=" hover:text-white text-lg ">Reimbursement</a>
           </ul>
         </div>
         
         {/** Services */}
         <div className="p-5">
           <h2 className="text-lg font-bold text-white">Services</h2>
-          <ul className="mt-2 space-y-2 text-gray-400">
-            <li>Virtual HR</li>
-            <li>Recruitment</li>
-            <li>Management</li>
-            <li>Reimbursement</li>
+          <ul className="mt-2 space-y-2 text-gray-400 flex-col justify-items-stretch">
+            <a href="#" className=" hover:text-white text-lg ">Virtual HR</a>
+            <a href="#" className=" hover:text-white text-lg ">Recruitment</a>
+            <a href="#" className=" hover:text-white text-lg ">Management</a>
+            <a href="#" className=" hover:text-white text-lg ">Reimbursement</a>
           </ul>
         </div>
         
         {/** Company */}
         <div className="p-5">
-          <h2 className="text-lg font-bold text-white">Company</h2>
-          <ul className="mt-2 space-y-2 text-gray-400">
-            <li>Pricing</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
+          <h2 className="text-2xl font-bold text-white">Company</h2>
+          <ul className="mt-2 space-y-2 text-gray-400 flex-row justify-center">
+            <a href="#" className=" hover:text-white text-lg ">Pricing</a>
+            <a href="#" className=" hover:text-white text-lg ">About Us</a>
+            <a href="#" className=" hover:text-white text-lg ">Contact Us</a>
           </ul>
         </div>
         
         {/** Newsletter */}
         <div className="col-span-2 pt-10 pl-5">
-          <h2 className="text-lg font-bold text-white">Our Newsletter</h2>
+          <h2 className="text-2xl font-bold text-white">Our Newsletter</h2>
           <p className="mt-2 text-gray-400">Enter your email and we contact you!</p>
           <div className="mt-3 flex items-center border border-gray-600 rounded-md overflow-hidden">
             <input
