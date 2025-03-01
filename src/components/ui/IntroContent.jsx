@@ -74,7 +74,7 @@ export default function IntroContent() {
                         {/* Submit Button */}
                         <button
                             type="submit"
-                            className="w-full bg-[#086165] text-white font-bold p-3 rounded-md hover:bg-[#064d4b] transition"
+                            className="w-full bg-[#086165] text-white font-bold p-3 rounded-md hover:bg-[#064d4b] transition active:scale-95"
                         >
                             FREE SIGN UP
                         </button>

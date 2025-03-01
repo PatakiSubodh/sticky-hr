@@ -52,16 +52,16 @@ export default function Testimonials() {
                     {/* Navigation Arrows */}
                     <div className="flex items-center gap-4 mt-6">
                         <button
-                        className="bg-yellow-400 p-4 rounded-full shadow-lg hover:bg-yellow-500 transition"
-                        onClick={() => sliderRef?.slickPrev()}
+                            className="bg-yellow-400 p-4 rounded-full shadow-lg hover:bg-yellow-500 transition"
+                            onClick={() => sliderRef?.slickPrev()}
                         >
-                        <FaChevronLeft className="text-white text-2xl" />
+                            <FaChevronLeft className="text-white text-2xl" />
                         </button>
                         <button
-                        className="bg-yellow-400 p-4 rounded-full shadow-lg hover:bg-yellow-500 transition"
-                        onClick={() => sliderRef?.slickNext()}
+                            className="bg-yellow-400 p-4 rounded-full shadow-lg hover:bg-yellow-500 transition"
+                            onClick={() => sliderRef?.slickNext()}
                         >
-                        <FaChevronRight className="text-white text-2xl" />
+                            <FaChevronRight className="text-white text-2xl" />
                         </button>
                     </div>
                 </div>
@@ -70,28 +70,28 @@ export default function Testimonials() {
                 <div className="w-full md:w-2/3 relative flex justify-center items-center h-full">
                     {/* Vertical Divider */}
                     <div className="bg-[#3B9B9F] w-5 h-full absolute left-1/4 -translate-x-1/2"></div>
-                    <div className="bg-[#FFC600] w-1 h-48 absolute left-28 bottom-48 rotate-90"></div>
+                    <div className="bg-[#FFC600] w-1 h-48 absolute left-10 bottom-40 rotate-90"></div>
 
                     {/* Slider Content */}
-                    <div className="w-full max-w-xl z-10">
+                    <div className="w-full max-w-3xl z-10 ml-44 mb-20">
                         <Slider ref={(slider) => (sliderRef = slider)} {...settings}>
                             {testimonials.map((item, index) => (
-                                <div key={index} className="flex flex-col items-center">
-                                {/* Bigger Image */}
-                                <img
-                                    src={item.image}
-                                    alt={item.name}
-                                    className="object-cover -mb-10"
-                                />
-                                {/* Bigger Card */}
-                                <Card className="bg-white p-12 w-[580px] h-80 flex flex-col items-center">
-                                    <CardContent className="flex flex-col justify-center items-center">
-                                    <h3 className="text-2xl font-semibold">{item.name}</h3>
-                                    <p className="italic text-gray-600 mt-4 text-lg text-center">
-                                        {item.feedback}
-                                    </p>
-                                    </CardContent>
-                                </Card>
+                                <div key={index} className="flex flex-col items-center justify-center rounded-xl overflow-hidden">
+                                    {/* Image Positioned Above the Card */}
+                                    <img
+                                        src={item.image}
+                                        alt={item.name}
+                                        className="object-cover w-96 h-96 -mb-20 ml-52"
+                                    />
+                                    {/* Bigger Card */}
+                                    <Card className="bg-white p-12 w-[800px] h-80 flex flex-col items-center rounded-xl">
+                                        <CardContent className="flex flex-col justify-center items-center rounded-xl pt-10">
+                                            <h3 className="text-2xl font-semibold">{item.name}</h3>
+                                            <p className="italic text-gray-600 mt-4 text-lg text-center">
+                                                {item.feedback}
+                                            </p>
+                                        </CardContent>
+                                    </Card>
                                 </div>
                             ))}
                         </Slider>

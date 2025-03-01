@@ -1,15 +1,28 @@
 import LaunchingImg from '../../assets/images/launching-img/launchingImg.png';
 import LaunchingImgMobile from '../../assets/images/launching-img/launchingImgMobile.png';
 import LaunchingSoonImg from '../../assets/images/launching-img/launchingSoonImg.png';
+import LaunchingSoonMonitor from '../../assets/images/launching-img/LaunchingSoonMonitor.png';
+import LaunchingSoonMonitorStand from '../../assets/images/launching-img/LaunchingSoonMonitorStand.png';
 
 export default function LaunchingSoon() {
     return (
         <div className="launching-content w-full bg-[#DEEEEF] flex flex-col items-center px-6 py-10 text-center mt-10">
 
-            {/* Launching Soon Icon */}
-            <div className="w-full flex justify-start pl-6 mb-4">
-                <img src={LaunchingSoonImg} alt="Launching Soon" className="w-44 md:w-44 absolute" />
+        <div className="w-full flex justify-start pl-6 mb-4 relative">
+            {/* Monitor */}
+            <img src={LaunchingSoonMonitor} alt="Launching Soon" className="w-44 md:w-44 relative z-10" />
+
+            {/* Launching Soon Text (Centered on the Monitor) */}
+            <div className="absolute top-7 left-14 z-10 text-center animate-bounce">
+                <span className="block text-xl italic">LAUNCHING</span>
+                <span className="block text-2xl font-bold">SOON</span>
             </div>
+
+            {/* Stand (Positioned below the monitor) */}
+            <img src={LaunchingSoonMonitorStand} alt="Launching Soon" className="w-16 absolute top-28 left-20" />
+        </div>
+
+
 
             {/* Title & Description */}
             <h1 className="text-2xl md:text-4xl font-bold text-[#035B5F]">
