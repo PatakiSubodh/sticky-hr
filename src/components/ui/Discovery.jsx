@@ -7,7 +7,7 @@ const Layout = () => {
     <div className="flex w-full h-screen px-10 py-8">
       {/* Left Section */}
         <div className="w-1/2 flex flex-col justify-center pl-12">
-        <h1 className="text-5xl font-bold text-gray-900">
+        <h1 className="text-5xl font-inter text-gray-900">
             Experience the Difference
         </h1>
         <p className="text-2xl text-gray-900 mt-4">

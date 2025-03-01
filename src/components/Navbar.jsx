@@ -68,7 +68,7 @@ function Navbar() {
                     <NavigationMenuItem>
                         <NavigationMenuLink asChild>
                             <Link to="/">
-                                <Button variant="link" className='text-base' >Home</Button>
+                                <Button variant="link" className='text-base no-underline' >Home</Button>
                             </Link>
                         </NavigationMenuLink>
                     </NavigationMenuItem>
