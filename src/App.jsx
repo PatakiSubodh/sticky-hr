@@ -3,7 +3,7 @@ import Footer from "./components/Footer.jsx";
 import Navbar from "./components/Navbar.jsx";
 import MainContent from "./components/MainContent.jsx";
 import Pricing from "./pages/Pricing.jsx"; 
-import Customers from './components/ui/Customers.jsx';
+import Customers from './pages/Customers.jsx';
 
 function App() {
   return (
