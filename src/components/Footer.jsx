@@ -35,7 +35,7 @@ const Footer = () => {
       <div className="col-span-3 grid grid-cols-4 grid-rows-2 gap-3 p-5">
         {/** Resources */}
         <div className="p-5">
-          <h2 className="text-lg font-bold text-white">Resources</h2>
+          <h2 className="text-xl font-bold text-white">Resources</h2>
           <ul className="mt-2 space-y-2 text-gray-400">
             <li>Blog</li>
             <li>Case Studies</li>
@@ -45,7 +45,7 @@ const Footer = () => {
         
         {/** Products */}
         <div className="p-5">
-          <h2 className="text-lg font-bold text-white">Products</h2>
+          <h2 className="text-xl font-bold text-white">Products</h2>
           <ul className="mt-2 space-y-2 text-gray-400">
             <li>Complete HR</li>
             <li>Payroll Management</li>
@@ -59,7 +59,7 @@ const Footer = () => {
         
         {/** Services */}
         <div className="p-5">
-          <h2 className="text-lg font-bold text-white">Services</h2>
+          <h2 className="text-xl font-bold text-white">Services</h2>
           <ul className="mt-2 space-y-2 text-gray-400">
             <li>Virtual HR</li>
             <li>Recruitment</li>
@@ -70,7 +70,7 @@ const Footer = () => {
         
         {/** Company */}
         <div className="p-5">
-          <h2 className="text-lg font-bold text-white">Company</h2>
+          <h2 className="text-xl font-bold text-white">Company</h2>
           <ul className="mt-2 space-y-2 text-gray-400">
             <li>Pricing</li>
             <li>About Us</li>
@@ -95,25 +95,27 @@ const Footer = () => {
         </div>
         
         {/** Social Media Icons */}
-        <div className="col-span-2 p-4 flex space-x-4 text-gray-200 text-2xl pt-20 pl-10 ">
-          <FaWhatsapp className="cursor-pointer text-4xl opacity-70 hover:opacity-100" />
-          <FaXTwitter className="cursor-pointer text-4xl" />
-          <FaYoutube className="cursor-pointer text-4xl" />
-          <FaLinkedin className="cursor-pointer text-4xl" />
-          <FaInstagram className="cursor-pointer text-4xl" />
+        <div className="col-span-2 flex space-x-10 text-gray-200 text-2xl pt-16 pl-10 ">
+          <FaWhatsapp className="cursor-pointer text-4xl opacity-70 hover:opacity-100 hover:text-white" />
+          <FaXTwitter className="cursor-pointer text-4xl opacity-70 hover:opacity-100 hover:text-white" />
+          <FaYoutube className="cursor-pointer text-4xl opacity-70 hover:opacity-100 hover:text-white" />
+          <FaLinkedin className="cursor-pointer text-4xl opacity-70 hover:opacity-100 hover:text-white" />
+          <FaInstagram className="cursor-pointer text-4xl opacity-70 hover:opacity-100 hover:text-white" />
         </div>
       </div>
       
       {/** Footer Bottom */}
-      <div className="col-span-4 text-center text-gray-500 text-sm mt-3 border-t border-gray-700 pt-4">
-        <p>© 2025 Stickyhr Solution Pvt. Ltd, All Rights Reserved</p>
-        <div className="flex justify-center space-x-6 mt-2">
+        <div className="col-span-4 text-gray-500 border-t-2 border-gray-700 grid grid-cols-3 space-x-6 text-sm">
+          <div className=" grid col-span-1 mt-5">
+          <p>© 2025 Stickyhr Solution Pvt. Ltd, All Rights Reserved</p>
+          </div>
+          <div className="col-span-2 space-x-32 text-right pr-32 mt-5">
           <a href="#" className="hover:text-white">Terms Of Service</a>
           <a href="#" className="hover:text-white">Privacy Policy</a>
           <a href="#" className="hover:text-white">Security Policy</a>
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 

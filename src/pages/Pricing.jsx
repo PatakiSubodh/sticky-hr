@@ -4,7 +4,7 @@ import PricingForm from '../components/ui/PricingForm.jsx';
 export default function Pricing() {
     return (
         <div className="pricing-component">
-            <div className="pricing-card m-20 h-[500px] bg-[#3B9B9F] rounded-3xl overflow-hidden relative">
+            <div className="pricing-card m-16 h-[550px] bg-[#3B9B9F] rounded-3xl overflow-hidden relative">
                 <div className="pricing-card-polygons">
                     <div className="reactangles">
                         <div className="rect1 absolute rotate-45 -top-[22rem] right-[400px]">
